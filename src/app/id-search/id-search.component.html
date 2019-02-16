@@ -1,0 +1,13 @@
+<div class="box">
+<form #createBlogForm="ngForm"  (ngSubmit)="searchI()">
+
+  <div class="form-group ">
+    <input type="text" name="id" [(ngModel)]="id" #ids="ngModel" class="form-control" placeholder="Enter ImdbID" required>
+    <input type="submit" class="btn btn-primary" [disabled]="!createBlogForm.form.valid" style="margin-left: 4px;" >
+  </div>
+
+
+</form>
+</div>
+<a class="link" routerLink=""><h4>Click to search by Title</h4></a>
+<router-outlet></router-outlet>
