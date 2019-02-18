@@ -1,7 +1,7 @@
 {
   "name": "omdb",
   "version": "0.0.0",
-  "engines";{
+  "engines":{
   "node":"v8.11.3",
   "npm":"5.6.0"},
   "scripts": {
